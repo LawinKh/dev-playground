@@ -1,0 +1,598 @@
+.search {
+  background-color: #e7fbb4;
+  height: 852px;
+  min-width: 393px;
+  position: relative;
+  width: 100%;
+}
+
+.search .back {
+  background-color: #999999;
+  border-radius: 20px / 18.72px;
+  height: 4.39%;
+  left: 5.34%;
+  position: absolute;
+  top: 6.46%;
+  width: 10.18%;
+}
+
+.search .arrow {
+  height: 17.50%;
+  left: 31.00%;
+  position: absolute;
+  top: 38.20%;
+  width: 42.50%;
+}
+
+.search .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: calc(50.00% - 86px);
+  padding: 10px;
+  position: absolute;
+  top: 51px;
+}
+
+.search .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.search .text-wrapper {
+  align-items: center;
+  color: #1e1e1e;
+  display: flex;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search .ingredients {
+  align-items: center;
+  color: #010205;
+  display: flex;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 2.93%;
+  justify-content: center;
+  left: 9.16%;
+  letter-spacing: 0.14px;
+  line-height: 31px;
+  position: absolute;
+  top: 50.94%;
+  white-space: nowrap;
+  width: 30.53%;
+}
+
+.search .discover-recipes {
+  align-items: center;
+  color: #1e1e1e;
+  display: flex;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 12.91%;
+  justify-content: center;
+  left: 6.62%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11.62%;
+  width: 90.08%;
+}
+
+.search .bg {
+  height: 199px;
+  left: calc(50.00% - 180px);
+  object-fit: cover;
+  position: absolute;
+  top: 189px;
+  width: 359px;
+}
+
+.search .div {
+  height: 5.87%;
+  left: 6.87%;
+  position: absolute;
+  top: 30.52%;
+  width: 86.85%;
+}
+
+.search .rectangle {
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #b4c2d333;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #00000014;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 99.41%;
+}
+
+.search .placeholder {
+  color: #8794a2;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 36.72%;
+  left: 4.55%;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 35.05%;
+  white-space: nowrap;
+  width: 58.91%;
+}
+
+.search .div-2 {
+  height: 33.26%;
+  left: 88.54%;
+  position: absolute;
+  top: 33.33%;
+  width: 4.64%;
+}
+
+.search .oval {
+  height: 84.55%;
+  left: -3.79%;
+  position: absolute;
+  top: -3.61%;
+  width: 84.82%;
+}
+
+.search .rectangle-2 {
+  border: 1px solid;
+  border-color: #b3c2d2;
+  border-radius: 1px;
+  height: 36.15%;
+  left: 77.70%;
+  position: absolute;
+  top: 65.11%;
+  transform: rotate(-46.34deg);
+  width: 10.86%;
+}
+
+.search .iphone-x-status-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+.search .battery {
+  position: relative;
+  width: 25px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.search .border {
+  width: 22px;
+  height: 11px;
+  border: 1px solid #000;
+  border-radius: 2.5px;
+  opacity: 0.35;
+}
+
+.search .cap {
+  width: 2px;
+  height: 4px;
+  opacity: 0.4;
+  margin-left: -1px;
+}
+
+.search .capacity {
+  position: absolute;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  background: #000;
+  border-radius: 1.5px;
+}
+
+.search .wifi,
+.search .cellular-connection {
+  width: 17px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+.search .time-style {
+  flex: 1;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  height: 21px;
+  left: 5px;
+  position: absolute;
+  top: 13px;
+  width: 54px;
+}
+
+.search .time {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: -0.3px;
+  line-height: normal;
+  margin-top: 2px;
+  text-align: center;
+  flex: 1;
+}
+
+/* Status Bar Styles */
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  background: #e7fbb4;
+  padding: 8px 20px 4px 20px;
+  height: 36px;
+}
+
+.iphone-x-status-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+.time-style {
+  flex: 1;
+  text-align: left;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: -0.3px;
+}
+
+.battery {
+  position: relative;
+  width: 25px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  width: 22px;
+  height: 11px;
+  border: 1px solid #000;
+  border-radius: 2.5px;
+  opacity: 0.35;
+}
+
+.cap {
+  width: 2px;
+  height: 4px;
+  opacity: 0.4;
+  margin-left: -1px;
+}
+
+.capacity {
+  position: absolute;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  background: #000;
+  border-radius: 1.5px;
+}
+
+.wifi,
+.cellular-connection {
+  width: 17px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+/* Search Page Styles */
+.search-content {
+  --background: #e7fbb4;
+  --padding-top: 36px;
+}
+
+.search-page {
+  background-color: #e7fbb4;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+.back-button {
+  --background: #999999;
+  --border-radius: 20px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+  height: 40px;
+  width: 40px;
+  margin: 15px 0 0 0;
+}
+
+.back-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.search-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-title {
+  color: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.discover-text {
+  text-align: center;
+  color: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 90%;
+}
+
+.search-image-container {
+  position: relative;
+  margin: 30px auto;
+  max-width: 359px;
+}
+
+.search-bg {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.search-bg-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.search-bar-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+.searchbar-container {
+  position: relative;
+  width: 100%;
+}
+
+.custom-searchbar {
+  --background: #ffffff;
+  --border-radius: 10px;
+  --box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+  --color: #8794a2;
+  --placeholder-color: #b3c2d2;
+  --icon-color: transparent;
+  padding: 0;
+}
+
+.custom-searchbar .searchbar-search-icon {
+  display: none;
+}
+
+.search-icon-end {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #b3c2d2;
+  pointer-events: none;
+}
+
+.custom-searchbar .searchbar-input {
+  border: 0.5px solid rgba(180, 194, 211, 0.2);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 16px;
+}
+
+.recipes-found {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.recipes-found p {
+  color: #010205;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.14px;
+  margin: 0;
+}
+
+/* Search Results */
+.search-results-empty {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.search-result-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.search-result-chips {
+  display: flex;
+  gap: 10px;
+}
+
+.status-icons-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Recipe Details Modal */
+.recipe-details-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #E7FBB4;
+  z-index: 2000;
+  overflow-y: auto;
+  padding-top: 36px;
+}
+
+.recipe-details-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  z-index: 2001;
+  --background: #999999;
+  --border-radius: 20px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.close-button ion-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.loading-details {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+}
+
+.recipe-details-scroll {
+  margin-top: 60px;
+}
+
+.recipe-detail-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.recipe-detail-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #1e1e1e;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.recipe-section h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #1e1e1e;
+}
+
+.recipe-section ul,
+.recipe-section ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.recipe-section li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-page {
+    padding: 15px;
+  }
+
+  .search-title {
+    font-size: 20px;
+  }
+
+  .discover-text {
+    font-size: 14px;
+  }
+
+  .search-result-image {
+    height: 180px;
+  }
+
+  .recipe-details-content {
+    padding: 15px;
+  }
+
+  .recipe-detail-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .recipe-section h3 {
+    font-size: 1.2rem;
+  }
+}
