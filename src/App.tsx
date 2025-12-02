@@ -3,8 +3,10 @@ import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import { Welcome } from './pages/Welcome';
-import Search from './pages/search';
+import Search from './pages/Search';
 import Navigation from './pages/Navigation';
+import AddRecipe from './pages/Add_recipe';
+import Favorites from './pages/Favorites';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -45,6 +47,14 @@ const App: React.FC = () => (
 
         <Route exact path="/navigation">
           <Navigation />
+        </Route>
+        
+        <Route exact path="/add-recipe">
+          <AddRecipe />
+        </Route>
+        
+        <Route exact path="/favorites">
+          <Favorites />
         </Route>
         
         <Route exact path="/">

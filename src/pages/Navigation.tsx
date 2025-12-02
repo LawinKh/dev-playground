@@ -12,6 +12,9 @@ import {
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import { home, search, add, heart, person, restaurant } from "ionicons/icons";
+import cap from "../assets/icons/Battery.svg";
+import cellularConnection from "../assets/icons/Cellular-Connection.svg";
+import wifi from "../assets/icons/Wifi.svg";
 import "./Navigation.css";
 
 export const Navigation: React.FC = () => {
@@ -21,8 +24,31 @@ export const Navigation: React.FC = () => {
     history.push(path);
   };
 
+  const currentTime = new Date().toLocaleTimeString('en-US', { 
+    hour: '2-digit', 
+    minute: '2-digit',
+    hour12: false 
+  });
+
   return (
     <IonPage>
+      <div className="status-bar">
+        <div className="iphone-x-status-bars">
+          <div className="time-style">
+            <div className="time">{currentTime}</div>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+            <img className="cellular-connection" alt="Cellular connection" src={cellularConnection} />
+            <img className="wifi" alt="Wifi" src={wifi} />
+            <div className="battery">
+              <div className="border" />
+              <img className="cap" alt="Cap" src={cap} />
+              <div className="capacity" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <IonHeader>
         <IonToolbar>
           <IonTitle>Navigation</IonTitle>
@@ -59,19 +85,19 @@ export const Navigation: React.FC = () => {
               </IonLabel>
             </IonItem>
 
-            <IonItem button className="nav-item disabled">
+            <IonItem button onClick={() => navigateTo('/add-recipe')} className="nav-item">
               <IonIcon icon={add} slot="start" className="nav-icon" />
               <IonLabel>
                 <h2>Add Recipe</h2>
-                <p>Create your own recipe (Coming soon)</p>
+                <p>Create your own recipe</p>
               </IonLabel>
             </IonItem>
 
-            <IonItem button className="nav-item disabled">
+            <IonItem button onClick={() => navigateTo('/favorites')} className="nav-item">
               <IonIcon icon={heart} slot="start" className="nav-icon" />
               <IonLabel>
                 <h2>Favorites</h2>
-                <p>View your liked recipes (Coming soon)</p>
+                <p>View your liked recipes</p>
               </IonLabel>
             </IonItem>
 
